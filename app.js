@@ -1,4 +1,4 @@
-import * as pdfjs from './vendor/pdf.min.mjs';
+import * as pdfjs from './vendor/pdf.min.mjs'; 
 pdfjs.GlobalWorkerOptions.workerSrc = './vendor/pdf.worker.min.mjs';
 const $ = id => document.getElementById(id);
 const key = 'ai-engineering-reader-v1';
