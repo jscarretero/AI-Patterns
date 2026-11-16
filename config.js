@@ -1,2 +1,2 @@
-// Set this to your public repository URL to show the “Star on GitHub” button.
-window.REPOSITORY_URL = '';
+// Public GitHub repository for the reader and book.
+window.REPOSITORY_URL = 'https://github.com/jscarretero/AI-Patterns';

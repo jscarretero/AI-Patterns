@@ -1,407 +1,432 @@
 [
   {
     "title": "AI Engineering Patterns in Python",
-    "page": 1,
+    "page": 2,
     "children": [
       {
-        "title": "Start here",
+        "title": "Cover",
+        "page": 1,
+        "children": []
+      },
+      {
+        "title": "Title page",
+        "page": 2,
+        "children": []
+      },
+      {
+        "title": "Copyright",
         "page": 3,
+        "children": []
+      },
+      {
+        "title": "Contents",
+        "page": 4,
+        "children": []
+      },
+      {
+        "title": "Start here",
+        "page": 6,
         "children": [
           {
             "title": "The running example: Acme Shop",
-            "page": 3,
+            "page": 6,
             "children": []
           },
           {
             "title": "Which pattern do I need?",
-            "page": 4,
+            "page": 7,
             "children": []
           },
           {
             "title": "Three habits that run through everything",
-            "page": 4,
+            "page": 7,
             "children": []
           },
           {
             "title": "How the parts fit",
-            "page": 5,
+            "page": 8,
             "children": []
           },
           {
             "title": "The shared foundation",
-            "page": 5,
+            "page": 8,
             "children": []
           },
           {
             "title": "How to read each part",
-            "page": 6,
+            "page": 9,
             "children": []
           },
           {
             "title": "Setup",
-            "page": 6,
+            "page": 9,
             "children": []
           }
         ]
       },
       {
         "title": "Part 1. Structured outputs, validation and guardrails",
-        "page": 7,
+        "page": 10,
         "children": [
           {
             "title": "1.1 Four levels of “give me JSON”",
-            "page": 8,
+            "page": 11,
             "children": []
           },
           {
             "title": "1.2 Design the schema first",
-            "page": 8,
+            "page": 11,
             "children": []
           },
           {
             "title": "1.3 Getting the data out",
-            "page": 9,
+            "page": 12,
             "children": []
           },
           {
             "title": "1.4 Validate in layers",
-            "page": 13,
+            "page": 16,
             "children": []
           },
           {
             "title": "1.5 Guardrails",
-            "page": 15,
+            "page": 18,
             "children": []
           },
           {
             "title": "1.6 Test guardrails like classifiers (second pass)",
-            "page": 18,
+            "page": 21,
             "children": []
           },
           {
             "title": "1.7 Practice",
-            "page": 18,
+            "page": 21,
             "children": []
           }
         ]
       },
       {
         "title": "Part 2. Tool use, function calling and API calling",
-        "page": 20,
+        "page": 23,
         "children": [
           {
             "title": "2.1 The protocol",
-            "page": 20,
+            "page": 23,
             "children": [
               {
                 "title": "The smallest working example",
-                "page": 21,
+                "page": 24,
                 "children": []
               }
             ]
           },
           {
             "title": "2.2 Harden it: the tool layer in four steps",
-            "page": 22,
+            "page": 25,
             "children": []
           },
           {
             "title": "2.3 Designing tools the model can use",
-            "page": 28,
+            "page": 31,
             "children": []
           },
           {
             "title": "2.4 Controlling tool choice (second pass)",
-            "page": 28,
+            "page": 31,
             "children": []
           },
           {
             "title": "2.5 API calling: wrapping a REST API as a tool (second pass)",
-            "page": 29,
+            "page": 32,
             "children": []
           },
           {
             "title": "2.6 MCP: write the integration once (second pass)",
-            "page": 30,
+            "page": 33,
             "children": []
           },
           {
             "title": "2.7 The same protocol on other providers (second pass)",
-            "page": 31,
+            "page": 34,
             "children": []
           },
           {
             "title": "2.8 Testing tools (second pass)",
-            "page": 31,
+            "page": 34,
             "children": []
           },
           {
             "title": "2.9 Practice",
-            "page": 33,
+            "page": 36,
             "children": []
           }
         ]
       },
       {
         "title": "Part 3. RAG: retrieval-augmented generation",
-        "page": 34,
+        "page": 37,
         "children": [
           {
             "title": "3.1 Architecture and where it breaks",
-            "page": 35,
+            "page": 38,
             "children": []
           },
           {
             "title": "3.2 Ingestion: parse, then chunk",
-            "page": 35,
+            "page": 38,
             "children": []
           },
           {
             "title": "3.3 Retrieval: hybrid, fused, reranked",
-            "page": 37,
-            "children": []
-          },
-          {
-            "title": "3.4 Query transformation (second pass)",
             "page": 40,
             "children": []
           },
           {
-            "title": "3.5 Generation with verified citations",
-            "page": 41,
+            "title": "3.4 Query transformation (second pass)",
+            "page": 43,
             "children": []
           },
           {
-            "title": "3.6 Evaluation",
+            "title": "3.5 Generation with verified citations",
             "page": 44,
             "children": []
           },
           {
+            "title": "3.6 Evaluation",
+            "page": 48,
+            "children": []
+          },
+          {
             "title": "3.7 Upgrades, in order of return (second pass)",
-            "page": 46,
+            "page": 50,
             "children": []
           },
           {
             "title": "3.8 Index lifecycle, operations and security (second pass)",
-            "page": 47,
+            "page": 51,
             "children": []
           },
           {
             "title": "3.9 Practice",
-            "page": 49,
+            "page": 53,
             "children": []
           }
         ]
       },
       {
         "title": "Part 4. Agents",
-        "page": 50,
+        "page": 55,
         "children": [
           {
             "title": "4.1 Workflow or agent?",
-            "page": 51,
+            "page": 56,
             "children": []
           },
           {
             "title": "4.2 The harness: a resumable agent loop",
-            "page": 52,
+            "page": 57,
             "children": [
               {
                 "title": "Persistence and recovery",
-                "page": 58,
+                "page": 63,
                 "children": []
               }
             ]
           },
           {
             "title": "4.3 Context management (second pass)",
-            "page": 59,
+            "page": 65,
             "children": []
           },
           {
             "title": "4.4 Human-in-the-loop and policy design",
-            "page": 60,
+            "page": 66,
             "children": []
           },
           {
             "title": "4.5 Subagents as tools (second pass)",
-            "page": 61,
+            "page": 66,
             "children": []
           },
           {
             "title": "4.6 Frameworks: when and which (second pass)",
-            "page": 62,
+            "page": 67,
             "children": []
           },
           {
             "title": "4.7 Evaluating agents",
-            "page": 62,
+            "page": 68,
             "children": []
           },
           {
             "title": "4.8 Security: the lethal trifecta",
-            "page": 64,
+            "page": 70,
             "children": []
           },
           {
             "title": "4.9 Practice",
-            "page": 65,
+            "page": 71,
             "children": []
           }
         ]
       },
       {
         "title": "Part 5. Model routing and cascades",
-        "page": 67,
+        "page": 72,
         "children": [
           {
             "title": "5.1 When routing pays, and the arithmetic",
-            "page": 67,
-            "children": []
-          },
-          {
-            "title": "5.2 Three patterns",
-            "page": 68,
-            "children": []
-          },
-          {
-            "title": "5.3 Static routing by stage",
-            "page": 69,
-            "children": []
-          },
-          {
-            "title": "5.4 Measure first: metering",
-            "page": 70,
-            "children": []
-          },
-          {
-            "title": "5.5 Pattern: the cascade",
             "page": 72,
             "children": []
           },
           {
-            "title": "5.6 Pattern: the router (second pass)",
+            "title": "5.2 Three patterns",
+            "page": 73,
+            "children": []
+          },
+          {
+            "title": "5.3 Static routing by stage",
             "page": 74,
             "children": []
           },
           {
-            "title": "5.7 Evaluate policies on the cost and quality frontier (second pass)",
+            "title": "5.4 Measure first: metering",
             "page": 75,
             "children": []
           },
           {
+            "title": "5.5 Pattern: the cascade",
+            "page": 77,
+            "children": []
+          },
+          {
+            "title": "5.6 Pattern: the router (second pass)",
+            "page": 79,
+            "children": []
+          },
+          {
+            "title": "5.7 Evaluate policies on the cost and quality frontier (second pass)",
+            "page": 80,
+            "children": []
+          },
+          {
             "title": "5.8 Production gotchas (second pass)",
-            "page": 78,
+            "page": 83,
             "children": []
           },
           {
             "title": "5.9 Practice",
-            "page": 78,
+            "page": 83,
             "children": []
           }
         ]
       },
       {
         "title": "Part 6. Batch APIs for offline work",
-        "page": 80,
+        "page": 85,
         "children": [
           {
             "title": "6.1 When to batch, and what you trade",
-            "page": 80,
+            "page": 85,
             "children": []
           },
           {
             "title": "6.2 Mental model",
-            "page": 81,
+            "page": 86,
             "children": []
           },
           {
             "title": "6.3 The Message Batches API, end to end",
-            "page": 81,
+            "page": 86,
             "children": []
           },
           {
             "title": "6.4 A resumable pipeline",
-            "page": 83,
-            "children": []
-          },
-          {
-            "title": "6.5 Make it cheaper still (second pass)",
             "page": 88,
             "children": []
           },
           {
+            "title": "6.5 Make it cheaper still (second pass)",
+            "page": 93,
+            "children": []
+          },
+          {
             "title": "6.6 The OpenAI Batch API (second pass)",
-            "page": 89,
+            "page": 94,
             "children": []
           },
           {
             "title": "6.7 Batch your evals (second pass)",
-            "page": 90,
+            "page": 95,
             "children": []
           },
           {
             "title": "6.8 Batch and agents: lockstep waves (second pass)",
-            "page": 91,
+            "page": 96,
             "children": []
           },
           {
             "title": "6.9 Failure modes and operations",
-            "page": 92,
+            "page": 97,
             "children": []
           },
           {
             "title": "6.10 Practice",
-            "page": 92,
+            "page": 97,
             "children": []
           }
         ]
       },
       {
         "title": "Wrap-up",
-        "page": 94,
+        "page": 99,
         "children": [
           {
             "title": "Simple first, upgrade when",
-            "page": 94,
+            "page": 99,
             "children": []
           },
           {
             "title": "The whole system on one page",
-            "page": 94,
+            "page": 99,
             "children": []
           },
           {
             "title": "Glossary",
-            "page": 94,
+            "page": 99,
             "children": []
           },
           {
             "title": "Where to find things",
-            "page": 95,
+            "page": 100,
             "children": []
           },
           {
             "title": "Anti-patterns, and the one-line fix",
-            "page": 96,
+            "page": 101,
             "children": []
           },
           {
             "title": "Capstone project",
-            "page": 97,
+            "page": 102,
             "children": []
           },
           {
             "title": "Design-review checklist",
-            "page": 97,
+            "page": 102,
             "children": []
           },
           {
             "title": "A last word",
-            "page": 99,
+            "page": 104,
             "children": []
           }
         ]
+      },
+      {
+        "title": "Back cover",
+        "page": 105,
+        "children": []
       }
     ]
   }
