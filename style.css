@@ -11,3 +11,7 @@
 .canvas-area{padding:10px 16px}
 @media(max-width:850px){.canvas-area{padding:8px 10px}}
 @media(max-width:520px){.canvas-area{padding:6px}}
+
+/* In a mobile two-page view, retain native vertical scrolling between pages. */
+@media(max-width:850px){.canvas-area{overscroll-behavior:contain;touch-action:pan-y pinch-zoom}.pages{flex-direction:column;align-items:center;gap:15px}}
+@media(max-width:520px){.reader-controls .star{font-size:0!important;padding:8px 6px}.reader-controls .star:first-letter{font-size:16px}}
